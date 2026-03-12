@@ -7157,7 +7157,24 @@
         "Source2Client002": "0x1E2C570",
         "Source2ClientConfig001": "0x1DC5DD0",
         "Source2ClientPrediction001": "0x1BEEE40",
-        "Source2ClientUI001": "0x1C01670"
+        "Source2ClientUI001": "0x1C01670",
+        "dwCSGOInput": "0x1E3C150",
+        "dwEntityList": "0x1D13CE8",
+        "dwGameEntitySystem": "0x1FB89D0",
+        "dwGameEntitySystem_highestEntityIndex": "0x20F0",
+        "dwGameRules": "0x1E31410",
+        "dwGlobalVars": "0x1BE41C0",
+        "dwGlowManager": "0x1E2E2B8",
+        "dwLocalPlayerController": "0x1E1DC18",
+        "dwLocalPlayerPawn": "0x1BEEF28",
+        "dwPlantedC4": "0x1E36BE8",
+        "dwPrediction": "0x1BEEE40",
+        "dwSensitivity": "0x1E2ED08",
+        "dwSensitivity_sensitivity": "0x50",
+        "dwViewAngles": "0x1E3C800",
+        "dwViewMatrix": "0x1E323D0",
+        "dwViewRender": "0x1E32F48",
+        "dwWeaponC4": "0x1DCF190"
     },
     "engine2_dll": {
         "BenchmarkService001": "0x5F7630",
@@ -7191,7 +7208,18 @@
         "StatsService_001": "0x8EC260",
         "ToolService_001": "0x5F7E00",
         "VENGINE_GAMEUIFUNCS_VERSION005": "0x5F5380",
-        "VProfService_001": "0x5F7E40"
+        "VProfService_001": "0x5F7E40",
+        "dwBuildNumber": "0x5F13E4",
+        "dwNetworkGameClient": "0x8EB538",
+        "dwNetworkGameClient_clientTickCount": "0x390",
+        "dwNetworkGameClient_deltaTick": "0x23C",
+        "dwNetworkGameClient_isBackgroundMap": "0x2C1467",
+        "dwNetworkGameClient_localPlayer": "0xE8",
+        "dwNetworkGameClient_maxClients": "0x230",
+        "dwNetworkGameClient_serverTickCount": "0x23C",
+        "dwNetworkGameClient_signOnState": "0x220",
+        "dwWindowHeight": "0x8EF844",
+        "dwWindowWidth": "0x8EF840"
     },
     "filesystem_stdio_dll": {
         "VAsyncFileSystem2_001": "0x215AE0",
@@ -7212,14 +7240,16 @@
     },
     "inputsystem_dll": {
         "InputStackSystemVersion001": "0x43CD0",
-        "InputSystemVersion001": "0x45A20"
+        "InputSystemVersion001": "0x45A20",
+        "dwInputSystem": "0x45A20"
     },
     "localize_dll": {
         "Localize_001": "0x47BE0"
     },
     "matchmaking_dll": {
         "GameTypes001": "0x1B5EE0",
-        "MATCHFRAMEWORK_001": "0x1BE190"
+        "MATCHFRAMEWORK_001": "0x1BE190",
+        "dwGameTypes": "0x1B5EE0"
     },
     "materialsystem2_dll": {
         "FontManager_001": "0x163500",
@@ -7291,7 +7321,9 @@
         "SoundOpSystem001": "0x3EB4A0",
         "SoundOpSystemEdit001": "0x3EB380",
         "SoundSystem001": "0x3EAE60",
-        "VMixEditTool001": "0x485ED80B"
+        "VMixEditTool001": "0x485ED80B",
+        "dwSoundSystem": "0x3EAE60",
+        "dwSoundSystem_engineViewData": "0x7C"
     },
     "steamaudio_dll": {
         "SteamAudio001": "0x257570"
