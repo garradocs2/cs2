@@ -8011,6 +8011,23 @@ inline struct client_dllOffsets {
 	DWORD Source2ClientConfig001;
 	DWORD Source2ClientPrediction001;
 	DWORD Source2ClientUI001;
+	DWORD dwCSGOInput;
+	DWORD dwEntityList;
+	DWORD dwGameEntitySystem;
+	DWORD dwGameEntitySystem_highestEntityIndex;
+	DWORD dwGameRules;
+	DWORD dwGlobalVars;
+	DWORD dwGlowManager;
+	DWORD dwLocalPlayerController;
+	DWORD dwLocalPlayerPawn;
+	DWORD dwPlantedC4;
+	DWORD dwPrediction;
+	DWORD dwSensitivity;
+	DWORD dwSensitivity_sensitivity;
+	DWORD dwViewAngles;
+	DWORD dwViewMatrix;
+	DWORD dwViewRender;
+	DWORD dwWeaponC4;
 } client_dll;
 
 inline struct engine2_dllOffsets {
@@ -8046,6 +8063,17 @@ inline struct engine2_dllOffsets {
 	DWORD ToolService_001;
 	DWORD VENGINE_GAMEUIFUNCS_VERSION005;
 	DWORD VProfService_001;
+	DWORD dwBuildNumber;
+	DWORD dwNetworkGameClient;
+	DWORD dwNetworkGameClient_clientTickCount;
+	DWORD dwNetworkGameClient_deltaTick;
+	DWORD dwNetworkGameClient_isBackgroundMap;
+	DWORD dwNetworkGameClient_localPlayer;
+	DWORD dwNetworkGameClient_maxClients;
+	DWORD dwNetworkGameClient_serverTickCount;
+	DWORD dwNetworkGameClient_signOnState;
+	DWORD dwWindowHeight;
+	DWORD dwWindowWidth;
 } engine2_dll;
 
 inline struct filesystem_stdio_dllOffsets {
@@ -8071,6 +8099,7 @@ inline struct imemanager_dllOffsets {
 inline struct inputsystem_dllOffsets {
 	DWORD InputStackSystemVersion001;
 	DWORD InputSystemVersion001;
+	DWORD dwInputSystem;
 } inputsystem_dll;
 
 inline struct localize_dllOffsets {
@@ -8080,6 +8109,7 @@ inline struct localize_dllOffsets {
 inline struct matchmaking_dllOffsets {
 	DWORD GameTypes001;
 	DWORD MATCHFRAMEWORK_001;
+	DWORD dwGameTypes;
 } matchmaking_dll;
 
 inline struct materialsystem2_dllOffsets {
@@ -8168,6 +8198,8 @@ inline struct soundsystem_dllOffsets {
 	DWORD SoundOpSystemEdit001;
 	DWORD SoundSystem001;
 	DWORD VMixEditTool001;
+	DWORD dwSoundSystem;
+	DWORD dwSoundSystem_engineViewData;
 } soundsystem_dll;
 
 inline struct steamaudio_dllOffsets {
